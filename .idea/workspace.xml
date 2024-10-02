@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caa6f25-e711-4589-8602-06ebe440578d" name="Changes" comment="">
+    <list default="true" id="2caa6f25-e711-4589-8602-06ebe440578d" name="Changes" comment="chore: add .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/co/shortenurlservice/application/SimpleShortenUrlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kr/co/shortenurlservice/application/SimpleShortenUrlService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "giwankim"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:giwankim/deploy-test.git",
+    "accountId": "c053c3f6-0a8d-42af-9013-4e24f5932677"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,13 +50,22 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JUnit.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest.executor": "Run",
+    "Maven.shortenurlservice [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/이준형/Downloads/shorten-url-service/shorten-url-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest">
@@ -86,6 +105,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +121,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695288811096</updated>
+      <workItem from="1727891360591" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: add .gitignore">
+      <option name="closed" value="true" />
+      <created>1727869900039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727869900039</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add .gitignore" />
   </component>
 </project>
