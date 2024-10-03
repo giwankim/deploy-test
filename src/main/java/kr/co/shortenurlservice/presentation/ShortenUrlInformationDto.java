@@ -3,25 +3,25 @@ package kr.co.shortenurlservice.presentation;
 import kr.co.shortenurlservice.domain.ShortenUrl;
 
 public class ShortenUrlInformationDto {
-    private String originalUrl;
-    private String shortenUrlKey;
-    private Long redirectCount;
+  private String originalUrl;
+  private String shortenUrlKey;
+  private Long redirectCount;
 
-    public ShortenUrlInformationDto(ShortenUrl shortenUrl) {
-        this.originalUrl = shortenUrl.getOriginalUrl();
-        this.shortenUrlKey = shortenUrl.getShortenUrlKey();
-        this.redirectCount = shortenUrl.getRedirectCount();
-    }
+  public ShortenUrlInformationDto(ShortenUrl shortenUrl) {
+    this.originalUrl = shortenUrl.getOriginalUrl();
+    this.shortenUrlKey = shortenUrl.getShortenUrlKey();
+    this.redirectCount = shortenUrl.getRedirectCount();
+  }
 
-    public String getOriginalUrl() {
-        return originalUrl;
-    }
+  public String getOriginalUrl() {
+    return originalUrl;
+  }
 
-    public String getShortenUrlKey() {
-        return shortenUrlKey;
-    }
+  public String getShortenUrlKey() {
+    return shortenUrlKey;
+  }
 
-    public Long getRedirectCount() {
-        return redirectCount;
-    }
+  public Long getRedirectCount() {
+    return redirectCount;
+  }
 }
