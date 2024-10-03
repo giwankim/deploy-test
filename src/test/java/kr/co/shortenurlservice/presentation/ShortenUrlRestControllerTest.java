@@ -7,6 +7,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import kr.co.shortenurlservice.application.SimpleShortenUrlService;
+import kr.co.shortenurlservice.domain.NotFoundShortenUrlException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,4 +38,12 @@ class ShortenUrlRestControllerTest {
 
   // 없는 단축 URL을 조회하는 경우는 여러분들이 테스트 작성 해보기 (404로 떨어지나?)
 
+  @Test
+  @DisplayName("없는 단축 URL로 조회하는 경우 404 HTTP 상태 코드가 응답된다.")
+  void redirectWithKeyThatDoesNotExist() throws Exception {
+    when(simpleShortenUrlService.getOriginalUrlByShortenUrlKey(any()))
+        .thenThrow(NotFoundShortenUrlException.class);
+
+    mockMvc.perform(get("/does-not-exist")).andExpect(status().isNotFound());
+  }
 }

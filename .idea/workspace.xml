@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2caa6f25-e711-4589-8602-06ebe440578d" name="Changes" comment="chore: add .gitignore">
+    <list default="true" id="2caa6f25-e711-4589-8602-06ebe440578d" name="Changes" comment="feat, test: linter and 존재하지 않는 URL 키 조회 시 예외 발생 테스트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/ShortenurlserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/ShortenurlserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/LackOfShortenUrlKeyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/LackOfShortenUrlKeyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/NotFoundShortenUrlException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/NotFoundShortenUrlException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/ShortenUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/ShortenUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/ShortenUrlRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/domain/ShortenUrlRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/infrastructure/MapShortenUrlRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/infrastructure/MapShortenUrlRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlCreateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlCreateRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlCreateResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlCreateResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlInformationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlInformationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/presentation/ShortenUrlRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/ShortenurlserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/ShortenurlserviceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/application/SimpleShortenUrlServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/application/SimpleShortenUrlServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/application/SimpleShortenUrlServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/application/SimpleShortenUrlServiceUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/presentation/ShortenUrlRestControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/co/shortenurlservice/presentation/ShortenUrlRestControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +50,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.ShortenUrlRestControllerTest.executor": "Run",
     "JUnit.SimpleShortenUrlServiceTest.shouldThrowExceptionWhenURLKeyDoesNotExist.executor": "Run",
+    "JUnit.SimpleShortenUrlServiceUnitTest.executor": "Run",
     "JUnit.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest.executor": "Run",
     "Maven.shortenurlservice [clean].executor": "Run",
     "Maven.shortenurlservice [com.diffplug.spotless:spotless-maven-plugin:2.43.0:apply].executor": "Run",
     "Maven.shortenurlservice [test].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.ShortenurlserviceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/이준형/Downloads/shorten-url-service/shorten-url-service",
@@ -89,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SimpleShortenUrlServiceTest.shouldThrowExceptionWhenURLKeyDoesNotExist">
+  <component name="RunManager" selected="JUnit.ShortenUrlRestControllerTest">
     <configuration name="ShortenurlserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kr.co.shortenurlservice.ShortenurlserviceApplication" />
       <module name="shortenurlservice" />
@@ -99,6 +89,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortenUrlRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortenurlservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.co.shortenurlservice.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.co.shortenurlservice.presentation" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.shortenurlservice.presentation.ShortenUrlRestControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +120,21 @@
       <option name="MAIN_CLASS_NAME" value="kr.co.shortenurlservice.application.SimpleShortenUrlServiceTest" />
       <option name="METHOD_NAME" value="shouldThrowExceptionWhenURLKeyDoesNotExist" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleShortenUrlServiceUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shortenurlservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.co.shortenurlservice.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.co.shortenurlservice.application" />
+      <option name="MAIN_CLASS_NAME" value="kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,6 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShortenUrlRestControllerTest" />
+        <item itemvalue="JUnit.SimpleShortenUrlServiceUnitTest" />
         <item itemvalue="JUnit.SimpleShortenUrlServiceTest.shouldThrowExceptionWhenURLKeyDoesNotExist" />
         <item itemvalue="JUnit.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest" />
         <item itemvalue="Application.ShortenurlserviceApplication" />
@@ -167,6 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695288811096</updated>
       <workItem from="1727891360591" duration="6000" />
+      <workItem from="1727926233212" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add .gitignore">
       <option name="closed" value="true" />
@@ -176,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727869900039</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat, test: linter and 존재하지 않는 URL 키 조회 시 예외 발생 테스트 추가">
+      <option name="closed" value="true" />
+      <created>1727922782630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727922782630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +226,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add .gitignore" />
+    <MESSAGE value="feat, test: linter and 존재하지 않는 URL 키 조회 시 예외 발생 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, test: linter and 존재하지 않는 URL 키 조회 시 예외 발생 테스트 추가" />
   </component>
 </project>
